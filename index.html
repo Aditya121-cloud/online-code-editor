@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Code Editor</h1>
+    </header>
+    <main>
+        <div class="editor">
+            <textarea id="code-editor" placeholder="Enter your code here..."></textarea>
+            <div class="editor-buttons">
+                <button onclick="runCode()">Run Code</button>
+                <button onclick="resetCode()">Reset</button>
+            </div>
+        </div>
+        <div class="output">
+            <iframe id="output-frame"></iframe>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
