@@ -3,7 +3,7 @@ function runCode() {
     var iframe = document.getElementById("output-frame");
     var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
     
-    // Wrap the user's code in a basic HTML structure
+
     var fullHTML = `
         <!DOCTYPE html>
         <html lang="en">
